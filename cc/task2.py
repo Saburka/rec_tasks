@@ -18,10 +18,10 @@ def damage(spell):
     else:
         spell = spell[beg_index: end_index + 2] # slice starting with "fe" and ending with last "ai"
 
-    spell = spell[2:-2]
+    spell = spell[2:-2] # don't count "fe" and last "ai"
     part = ["jee", "je", "dai", "ne", "ain", "ai"] # the order of elements in list matters
 
-    total = subspells["fe"] + subspells["ai"]
+    total = subspells["fe"] + subspells["ai"] # count first minimum for spell ("fe" and last "ai")
     for item in part:
         if item in spell:
             occurr = spell.count(item)
