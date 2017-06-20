@@ -79,7 +79,5 @@ def damage(spell):
     else:
         return 0
 
-    return damage
-
 # Let's test!
 print(damage("fexxxxxxxxxxai"))
