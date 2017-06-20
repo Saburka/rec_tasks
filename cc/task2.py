@@ -4,7 +4,7 @@
 def damage(spell):
     spell = spell.lower() # it wasn't determined if uppercase letters are allowed or script should just return 0
     beg_index = int(spell.find("fe")) # a number of index of "fe"
-    end_index = int(spell.rfind("ai")) # a number of index of last occurrence"ai"
+    end_index = int(spell.rfind("ai")) # a number of index of last occurrence of "ai"
 
     if not spell.isalpha() and not spell.isspace():
         return 0
