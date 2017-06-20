@@ -10,7 +10,7 @@ def calculate(part, spell, score):
     return spell
 
 def damage(spell):
-    spell = spell.lower() # it wasn't determind if uppercase letters should return ) or not
+    spell = spell.lower() # it wasn't pointed out if uppercase letters should return ) or not
     beg_index = int(spell.find("fe")) # a number of index of "fe"
     end_index = int(spell.rfind("ai")) # a number of index of last occurrence"ai"
 
