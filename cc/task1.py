@@ -44,6 +44,5 @@ def group_by(stream, field, success = False):
 
     return data_set
 
-
-
+# Let's test!
 print(group_by(open("launchlog.txt"), "year", success = True))
