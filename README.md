@@ -37,7 +37,7 @@ damage('fefefefefeaiaiaiaiai') == 0 (more than one 'fe')
 damage(fdafafeajain) == 1 (fe-ai) 3 - 2 (because 'aj')  
 damage('fexxxxxxxxxxai') == 0 (3-10 = -7 < 0)  
 
-Solution should be in file named task2.py and contains damage method inside.  
+Solution should contain damage method inside.  
 
 def damage(spell):  
 """  
