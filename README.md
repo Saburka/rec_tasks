@@ -4,8 +4,8 @@
 It still gives my some incorrect results. I am working on it. Correct solution and task description soon.
 
 # Task 2
-Write a method calculating damage done by a spell of the famous polish wizard.
-\\ Eg. https://www.youtube.com/watch?v=XkeVYHJ6AG8 - 'fejejeeaindaiyaiai'
+Write a method calculating damage done by a spell of the famous polish wizard.  
+Eg. https://www.youtube.com/watch?v=XkeVYHJ6AG8 - 'fejejeeaindaiyaiai'
 
 Spell consists of subspells. Each subspell add points of damage respectively:
 'fe' - 1
