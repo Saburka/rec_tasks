@@ -29,21 +29,21 @@ Incorrect spells:
 'dadsafeokokok' (doesn't end with 'ai')  
 'aioooofe'
 
-i.e.
-damage('feeai') == 2
-damage('feaineain') == 1 + 2 + 2 + 2 = 7 (fe-ai-ne-ai) - not (fe-ain-ai) because 1+3+2 = 6
-damage('jee') == 0
-damage('fefefefefeaiaiaiaiai') == 0 (more than one 'fe')
-damage(fdafafeajain) == 1 (fe-ai) 3 - 2 (because 'aj')
-damage('fexxxxxxxxxxai') == 0 (3-10 = -7 < 0)
+i.e.  
+damage('feeai') == 2  
+damage('feaineain') == 1 + 2 + 2 + 2 = 7 (fe-ai-ne-ai) - not (fe-ain-ai) because 1+3+2 = 6  
+damage('jee') == 0  
+damage('fefefefefeaiaiaiaiai') == 0 (more than one 'fe')  
+damage(fdafafeajain) == 1 (fe-ai) 3 - 2 (because 'aj')  
+damage('fexxxxxxxxxxai') == 0 (3-10 = -7 < 0)  
 
-Solution should be in file named task2.py and contains damage method inside.
+Solution should be in file named task2.py and contains damage method inside.  
 
-def damage(spell):
-"""
-Function calculating damage
-:param str spell: string with spell
-:rtype: int
-:return: points of damage
-"""
-pass
+def damage(spell):  
+"""  
+Function calculating damage  
+:param str spell: string with spell  
+:rtype: int  
+:return: points of damage  
+"""  
+pass  
